@@ -1,0 +1,7 @@
+extract_load:
+  host: 'localhost:8000'
+  connection_id: 'ea6ed80f-6f84-4907-ad16-9581ce8661b9'
+transform: 
+  model_path: "models"
+meta:
+  log_table: 'coin_history_pipeline'
