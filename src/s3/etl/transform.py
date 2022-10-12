@@ -30,6 +30,7 @@ class Transform():
 
             # execute parsed sql 
             result = self.engine.execute(parsed_sql)
+
             logging.info(f"Successfully built model: {self.model}, rows inserted/updated: {result.rowcount}")
             return True 
         else: 

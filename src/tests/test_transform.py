@@ -11,7 +11,7 @@ def test_transformation():
         config = yaml.safe_load(config_file) 
 
 
-    table_name = 'serving_coin_price_history'
+    table_name = 'serve_happiness'
     engine = PostgresDB.create_pg_engine(db_target='target')
     models_path = config.get('transform').get('model_path')
 

@@ -49,7 +49,7 @@ def run_pipeline():
         
         # transform nodes  
         logging.info("Creating transform nodes")
-        node_staging_orders = Transform("serving_coin_price_history", engine=target_engine, models_path=path_transform_model)
+        node_staging_orders = Transform("happiness", engine=target_engine, models_path=path_transform_model)
         dag.add(node_staging_orders, airbyte_connection)
         
         # run dag 

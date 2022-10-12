@@ -1,6 +1,6 @@
 extract_load:
   host: 'localhost:8000'
-  connection_id: 'ea6ed80f-6f84-4907-ad16-9581ce8661b9'
+  connection_id: '578ed396-ff32-42f7-8ae2-5664bf965684'
 transform: 
   model_path: "models"
 meta:
